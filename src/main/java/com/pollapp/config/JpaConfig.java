@@ -19,7 +19,7 @@ import java.util.Map;
 @Configuration
 @EnableTransactionManagement
 @EnableJpaRepositories(basePackages = {"com.pollapp.repository"})
-public class DataBaseConfig {
+public class JpaConfig {
 
     @Bean
     @Primary
